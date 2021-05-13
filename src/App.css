@@ -44,3 +44,18 @@
   padding-left: 0;
   margin: 20px 1em 20px 1em;
 }
+
+.cityList > li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+  margin: 10px 0px;
+  list-style: none;
+}
+
+.cityList > li:nth-child(even){
+  background-color: lightgray;
+}
+
+.cityList > li:nth-child(odd){
+  background-color: lightsteelblue;
+}
