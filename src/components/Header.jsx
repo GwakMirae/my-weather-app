@@ -1,12 +1,15 @@
 import logo from '../logo.svg';
 
-function Header() {
+function Header(props) {
+    //const city = "Seoul"
+
+    console.log(props);
+    const city = props.cityName;
+
   return (
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>도시는: {city}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
